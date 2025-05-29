@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 /* styles.css */
 
 /* CSS Variables (Custom Properties) */
 :root {
-    --primary-text-color: #333;
-    --secondary-text-color: #555;
-    --heading-color: #004080; /* Deep blue for headings */
-    --accent-color: #005a8c;  /* Slightly lighter blue for accents */
-    --background-color: #f4f7f6; /* Light, slightly cool gray */
-    --section-background-color: #ffffff;
+    --primary-text-color: #E0E0E0;
+    --secondary-text-color: #B0B0B0;
+    --heading-color: #00BCD4; /* Deep blue for headings */
+    --accent-color: #FFEB3B;  /* Slightly lighter blue for accents */
+    --background-color: #121212; /* Light, slightly cool gray */
+    --section-background-color: #333333;
     --border-color: #e0e0e0;
-    --base-font-family: 'Helvetica Neue', Arial, sans-serif;
+    --base-font-family: 'Montserrat', sans-serif;
     --line-height-base: 1.6;
     --spacing-unit: 1rem; /* Approx 16px if base font-size is 16px */
   }
@@ -124,15 +125,15 @@
   }
   
   .disclaimer {
-    background-color: #fffbe6; /* Light yellow for disclaimer */
-    border: 1px solid #ffe58f;
+    background-color: #424242; /* Light yellow for disclaimer */
+    border: 1px solid var(--accent-color);
     padding: var(--spacing-unit);
     border-radius: 4px;
-    color: #8a6d3b; /* Darker text for readability on yellow */
+    color: #E0E0E0; /* Darker text for readability on yellow */
   }
   
   .disclaimer strong {
-    color: #66512c;
+    color: var(--accent-color);
   }
   
   /* Responsive adjustments */
